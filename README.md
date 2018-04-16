@@ -9,7 +9,7 @@ I wanted to create a tool to help me in the further develop of a tabletop role-p
 int main()
 {
 fileCheckOrCharacterNameEntery(downloadFromFileToProgram/AskEnteryAndUploadToFile, enterAndCheckEntry)
-characterStats(downloadFromFileToProgram/AskEnteryAndUploadToFile,, enterAndCheckEntry, stateModBonusUploadToFile)
+characterStats(downloadFromFileToProgram/AskEnteryAndUploadToFile, enterAndCheckEntry, stateModBonusUploadToFile)
 }//end main
 
 Function definitions
