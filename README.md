@@ -1,4 +1,4 @@
-# C-Final
+# CPP-Final
 Character data entry
 
 ## Synopsis & Motivation
