@@ -48,3 +48,5 @@ ofCharacterData << temp;
 The file creates endless loop because of the way that I encoded the while statement on line 157.
 
 I had realized several potential problems that the way I had coded things could cause. Within my fifteen hours I had started to reorganize my code but had been unable to get it functioning and thus submitted my most recent working code for my final. With the way that I had started to reorganize my code it wouldn't cause a problem in the way that it has.
+
+<img src="CPPEndlessLoopProblem.png">
