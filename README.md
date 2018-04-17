@@ -29,7 +29,7 @@ Text file (note: active data would be encoded into the file at the end of the pr
 
 <img src="CPPTextFile.png">
 
-##Feedback Notes
+## Feedback Notes
 
 Starting with in the while loop starting on line 165 I added the following code to line 202. 
 ```
