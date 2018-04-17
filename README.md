@@ -28,3 +28,23 @@ Text file (note: active data would be encoded into the file at the end of the pr
 <img src="CPPCommandPrompt.png">
 
 <img src="CPPTextFile.png">
+
+##Feedback Notes
+
+Starting with in the while loop starting on line 165 I added the following code to line 202. 
+```
+enterAndCheckEntry(entryConfirm, checkString, entryType, callCode);
+				characterStats[row][0] = stoi(checkString);
+				int tempInt = characterStats[row][0];
+				temp = temp + '#' + entryType + ": "+ checkString;
+				statsMod(tempInt);//row, characterStats[row][0], characterStats[row][1]);
+				characterStats[row][1] = tempInt;
+				temp = temp + "#Mod:" + to_string(tempInt);
+```
+After the end of the while loop I added the following line to add the contents of the entered stats and their modifiers.
+```
+ofCharacterData << temp;
+```
+The file creates endless loop because of the way that I encoded the while statement on line 157.
+
+I had realized several potential problems that the way I had coded things could cause. Within my fifteen hours I had started to reorganize my code but had been unable to get it functioning and thus submitted my most recent working code for my final. With the way that I had started to reorganize my code it wouldn't cause a problem in the way that it has.
